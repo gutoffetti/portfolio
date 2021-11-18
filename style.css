@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #413C69;
 }
 
 
@@ -38,13 +38,14 @@ body {
 
 .main-menu ul a {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 .main-menu ul a:hover {
     color: white;
+    font-size: 20px;
 }
 
 .main-menu a img {
@@ -104,10 +105,12 @@ main {
     color: white;
     text-decoration: none;
     font-weight: 900;
+    font-size: 22px;
 }
 
 .introduction article p a:hover {
-    color: rgb(2, 0, 138);
+    color: #709FB0;
+    font-size: 24px;
 }
 
 .introduction article img {
@@ -158,12 +161,15 @@ main {
 }
 
 .works article a:hover {
-    color: rgb(2, 0, 138);
+    color: #709FB0;
+    font-size: 26px;
 }
 
 .works .infos {
     width: 550px;
 }
+
+
 
 .works .images {
     width: 100%;
@@ -181,12 +187,24 @@ main {
     border-radius: 32px;
 }
 
+.works .images img:hover {
+    cursor: zoom-in;
+}
+
+.works .images img:active {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    object-fit: contain;
+    image-rendering: optimizeQuality;
+}
+
 .last-infos {
-    background-color: rgba(209, 13, 13, 0.171);
+    background-color: rgba(0, 0, 0, 0.5);
     margin-top: 40px;
     padding: 40px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
     letter-spacing: 4px;
 }
 
@@ -209,5 +227,6 @@ main {
 }
 
 .last-infos a:hover {
-    color: rgb(2, 0, 138);
+    color: #709FB0;
+    font-size: 20px;
 }
